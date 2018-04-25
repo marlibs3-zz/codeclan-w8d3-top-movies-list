@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TopMoviesActivity">
+    tools:context=".MovieDetailActivity">
 
-    <ListView
-        android:id="@+id/moviesListViewID"
+    <TextView
+        android:id="@+id/movieTitleTextViewId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:text="TextView"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="169dp" />
 </android.support.constraint.ConstraintLayout>
